@@ -47,33 +47,38 @@
   <div class="container-fluid p-0">
     <div class="row no-gutters">
       <div class="col-xl-4 col-lg-5 align-self-end">
-        <img class="img-fluid w-100" src="images/banner/banner-feature.png" alt="banner-feature">
+        <img class="img-fluid w-100" src="{{asset('images/background.jpg')}}" alt="banner-feature">
       </div>
       <div class="col-xl-8 col-lg-7">
         <div class="row feature-blocks bg-gray justify-content-between">
           <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
             <i class="ti-book mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">Scholorship News</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad</p>
-          </div>
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">Our Notice Board</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad</p>
-          </div>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">SMS/USSD</h3>
+            <p>
+            sms/ussd will be used by sasaKazi to provide trainers to learners in remote areas or
+            those who are not able to access our platform for our online training using smartphones or internet.
+
+            <!-- Also we shall use sms to send a quick text with a link to the information for the upcoming
+            live classes as well as a reminder to ensure continuity of our courses to those who have registered online. -->
+            </p>
+                  </div>
           <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
             <i class="ti-agenda mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">Our Achievements</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad</p>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">sasaKazi Mobile App</h3>
+            <p>Sasakazi mobile app is designed to provide convenience by helping the students
+             to achieve more in less time just on their smartphones/tablets anywhere. </p>
           </div>
           <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
             <i class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">Admission Now</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad</p>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Digital work</h3>
+            <p>Get trained on how to do different online jobs  and also get links to those jobs.
+</p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-phone mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Job Matching</h3>
+            <p>Get and search for the latest job opportunities  from ICT industry  and others globally.
+</p>
           </div>
         </div>
       </div>
@@ -88,9 +93,8 @@
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <h2 class="section-title">About Educenter</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-        <p>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-        <a href="about.html" class="btn btn-primary-outline">Learn more</a>
+       <p>Job matching and Educational platform targeting youth with the aim of preparing them to benefit from the opportunities</p>
+        <a href="about" class="btn btn-primary-outline">Learn more</a>
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         <img class="img-fluid w-100" src="images/about/about-us.jpg" alt="about image">
@@ -251,7 +255,7 @@
 <!-- /cta -->
 
 <!-- success story -->
-<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+{{-- <section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative success-video">
@@ -268,7 +272,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 <!-- /success story -->
 
 <!-- events -->
@@ -406,74 +410,9 @@
 <!-- /teachers -->
 
 <!-- blog -->
-<section class="section pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">Latest News</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
+
   <!-- blog post -->
-  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-      <img class="card-img-top rounded-0" src="images/blog/post-1.jpg" alt="Post thumb">
-      <div class="card-body">
-        <!-- post meta -->
-        <ul class="list-inline mb-3">
-          <!-- post date -->
-          <li class="list-inline-item mr-3 ml-0">August 28, 2018</li>
-          <!-- author -->
-          <li class="list-inline-item mr-3 ml-0">By Somrat Sorkar</li>
-        </ul>
-        <a href="blog-single.html">
-          <h4 class="card-title">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
-        </a>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-        <a href="blog-single.html" class="btn btn-primary btn-sm">read more</a>
-      </div>
-    </div>
-  </article>
-  <!-- blog post -->
-  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-      <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
-      <div class="card-body">
-        <!-- post meta -->
-        <ul class="list-inline mb-3">
-          <!-- post date -->
-          <li class="list-inline-item mr-3 ml-0">August 13, 2018</li>
-          <!-- author -->
-          <li class="list-inline-item mr-3 ml-0">By Jonathon Drew</li>
-        </ul>
-        <a href="blog-single.html">
-          <h4 class="card-title">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
-        </a>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-        <a href="blog-single.html" class="btn btn-primary btn-sm">read more</a>
-      </div>
-    </div>
-  </article>
-  <!-- blog post -->
-  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-      <img class="card-img-top rounded-0" src="images/blog/post-3.jpg" alt="Post thumb">
-      <div class="card-body">
-        <!-- post meta -->
-        <ul class="list-inline mb-3">
-          <!-- post date -->
-          <li class="list-inline-item mr-3 ml-0">August 24, 2018</li>
-          <!-- author -->
-          <li class="list-inline-item mr-3 ml-0">By Alex Pitt</li>
-        </ul>
-        <a href="blog-single.html">
-          <h4 class="card-title">Lorem ipsum dolor amet, adipisicing eiusmod tempor.</h4>
-        </a>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-        <a href="blog-single.html" class="btn btn-primary btn-sm">read more</a>
-      </div>
-    </div>
-  </article>
+
 </div>
   </div>
 </section>

@@ -21,11 +21,10 @@
       <div class="row">
         <div class="col-lg-4 col-sm-4 mb-5 mb-lg-0">
           <!-- logo -->
-          <a class="logo-footer" href="index.php"><img class="img-fluid mb-4" src="images/sasakazi.png" height="90" width="200" alt="logo"></a>
+          <a class="logo-footer" href="index"><img class="img-fluid mb-4" src="{{asset('images/sasakazi-origin.png')}}" height="90" width="200" alt="logo"></a>
           <ul class="list-unstyled">
             <li class="mb-2">Kiptagich House, 6th Floor</li>
             <li class="mb-2">+254 724 077 237</li>
-            <!-- <li class="mb-2">+1 (2) 345 6789</li> -->
             <li class="mb-2">info@sasaKazi.com</li>
           </ul>
         </div>
@@ -35,16 +34,16 @@
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0" style="margin-left: -600">
           <h4 class="text-white mb-5">Others</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
-            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
-            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
-            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+            <li class="mb-3"><a class="text-color" href="about">About Us</a></li>
+            {{-- <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li> --}}
+            <li class="mb-3"><a class="text-color" href="contact">Contact</a></li>
+            {{-- <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li> --}}
           </ul>
         </div>
 
         <!-- links -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">Our Pertners </h4>
+          <h4 class="text-white mb-5">Our Partners </h4>
           <ul class="list-unstyled">
             <li class="mb-3"><a class="text-color" href="https://www.eldohub.co.ke/">EldoHub</a></li>
             <li class="mb-3"><a class="text-color" href="http://northriftwomen.org/">Northrift women in STEM</a></li>
@@ -80,8 +79,8 @@
           <ul class="list-inline">
             <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/groups/529248318027147/"><i class="ti-facebook text-primary"></i></a></li>
             <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/sasakazi2"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+            {{-- <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li> --}}
+            {{-- <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li> --}}
           </ul>
         </div>
       </div>
